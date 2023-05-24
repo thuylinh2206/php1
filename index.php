@@ -307,7 +307,7 @@ if (isInteger($string)) {
 }
 ?>
 <br/>
-<?php echo "Câu 19: ";
+<?php echo "Câu 20: ";
 //Viết một chương trình PHP để kiểm tra xem một chuỗi có phải là một email hợp lệ hay không sử dụng hàm filter_var().
 function isValidEmail($string) {
     return filter_var($string, FILTER_VALIDATE_EMAIL) !== false;
@@ -323,4 +323,3 @@ if (isValidEmail($string)) {
 ?>
 <br/>
 </html>
-//http://localhost:3000/index.php
